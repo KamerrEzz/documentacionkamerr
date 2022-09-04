@@ -10,10 +10,16 @@
   "repository": "git@kamerrezz/testerasd/kamerrbitcoinscrak",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d src/.vuepress/dist"
   },
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.5.3"
-  }
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "homepage": "https://kamerrezz.github.io/documentacionkamerr/"
 }
