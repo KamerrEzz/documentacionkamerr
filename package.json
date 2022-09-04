@@ -1,0 +1,19 @@
+{
+  "name": "kamerrbitcoinscrak",
+  "version": "0.0.1",
+  "description": "este es una cosa para testear",
+  "main": "index.js",
+  "authors": {
+    "name": "kamerrezz",
+    "email": "dev@kamerrezz.com"
+  },
+  "repository": "git@kamerrezz/testerasd/kamerrbitcoinscrak",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
